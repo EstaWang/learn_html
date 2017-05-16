@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dating Website</title>
+</head>
+<body>
+<form action="http://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" method="post" enctype="multipart/form-data">
+    <fieldset>
+        <legend>Your Face</legend>
+        Your image: <input type="file" id="ImageToUpload" name="ImageToUpload"><br>
+        Image preview:<br>
+        <div id="userImage" name="userImage"></div>
+    </fieldset>
+    <fieldset>
+        <legend>You General Details</legend>
+        Name:<input type="text" id="name" name="name"><br>
+        Gender:
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="famale">Female<br>
+        Age:<input type="number" id="age" name="age"><br>
+        Date of birth:<input type="date" id="birth" name="birth"><br>
+        Favorite color:<input type="color" id="color" name="color"><br>
+
+    </fieldset>
+</form>
+</body>
+</html>
